@@ -1,0 +1,260 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"fil",
+				"fillRect"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"strok",
+				"strokeStyle"
+			],
+			[
+				"a",
+				"actualyear"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"column-",
+				"column-count\tproperty"
+			],
+			[
+				"column",
+				"column-gap\tproperty"
+			],
+			[
+				"err",
+				"errortelephonemsg"
+			],
+			[
+				"er",
+				"erroremailmsg"
+			],
+			[
+				"ema",
+				"emailid"
+			],
+			[
+				"validate",
+				"validatename"
+			],
+			[
+				"onkey",
+				"onkeyup\tAttr"
+			],
+			[
+				"onke",
+				"onkeyup\tAttr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/kaustubh/Documents/Python/FOSSEE",
+		"/home/kaustubh/Documents/Python/FOSSEE/Dev",
+		"/home/kaustubh/Documents/Python/FOSSEE/Dev/venv",
+		"/home/kaustubh/Documents/Python/FOSSEE/Dev/venv/src"
+	],
+	"file_history":
+	[
+		"/home/kaustubh/Documents/Python/FOSSEE/Dev/venv/src/manage.py",
+		"/home/kaustubh/Desktop/cat2.html",
+		"/home/kaustubh/Downloads/assignment_3.php",
+		"/home/kaustubh/Desktop/two.html",
+		"/home/kaustubh/Desktop/three.html",
+		"/opt/lampp/htdocs/9_jan_16bce0353.php",
+		"/opt/lampp/htdocs/9jan_session2/substring-1.php",
+		"/opt/lampp/htdocs/9jan_session2/myphp.php",
+		"/opt/lampp/htdocs/9jan.php",
+		"/home/kaustubh/Desktop/Sem6/mobile app/da1/Program3/one.css",
+		"/home/kaustubh/Desktop/Sem6/mobile app/da1/Program3/one.js",
+		"/home/kaustubh/Desktop/Sem6/mobile app/da1/Program3/one.html",
+		"/home/kaustubh/Desktop/da1/two.html",
+		"/home/kaustubh/Documents/Web/Html/canvas1.html",
+		"/home/kaustubh/Desktop/one.js",
+		"/home/kaustubh/Desktop/one.css",
+		"/home/kaustubh/Desktop/one.html",
+		"/home/kaustubh/Documents/Web/Html/da1/ques3.js",
+		"/home/kaustubh/Documents/Web/Html/da1/ques3.html",
+		"/home/kaustubh/Documents/Web/Html/da1/ques3.css",
+		"/home/kaustubh/Desktop/new.js",
+		"/home/kaustubh/Desktop/two.css",
+		"/home/kaustubh/Documents/documents/coursera application",
+		"/home/kaustubh/AndroidStudioProjects/Intents_Android_notes",
+		"/home/kaustubh/Documents/Sem6/java/lab/lab1/circularprime.class",
+		"/home/kaustubh/Downloads/coursera application",
+		"/home/kaustubh/AndroidStudioProjects/notes/relative_layout.xml",
+		"/home/kaustubh/AndroidStudioProjects/notes/try.php",
+		"/home/kaustubh/AndroidStudioProjects/AndroidRepos/Intents_Android_notes"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "projectone.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 185.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
