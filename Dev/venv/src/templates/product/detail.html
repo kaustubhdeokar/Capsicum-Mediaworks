@@ -2,14 +2,10 @@
 
 {% block content %}
 
-<h1> wfnds</h1>
+ <form>
+ 	{{ form.as_p }}
+ 	<input type="submit" value="Save"/>
+ </form>
 
-{{ object.description|upper }}
-
-{{ object.title }}
-<p>
-{% if object.description != '' %} {{ object.description }} {%endif%}
-</p>
 {% endblock %}
 
-there should always be space between != & ''
