@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Hello Contacts
+	</title>
+</head>
+<body>
+
+	{% block content %}
+	This is the contacts page.
+	<p>List all.</p>
+	{% endblock content %}
+
+	This will not appear as it is not inside the block content unless base.html is extended
+
+</body>
+</html>
