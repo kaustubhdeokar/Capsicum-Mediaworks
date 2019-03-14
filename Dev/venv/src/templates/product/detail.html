@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1> wfnds</h1>
+
+{{ object.description|upper }}
+
+{{ object.title }}
+<p>
+{% if object.description != '' %} {{ object.description }} {%endif%}
+</p>
+{% endblock %}
+
+there should always be space between != & ''

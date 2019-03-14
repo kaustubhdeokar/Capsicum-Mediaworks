@@ -11,14 +11,18 @@
 
 	{% block content %}
 	This is the About  page.
-	<p>Listed all.</p>
+	<p> {{ my_text | upper |safe }}</p>
 
 	{{ my_number }},
 	{{ my_list }}    
 
 	<ul>
 		{% for i in my_list %}
+		{% if i == 1 %}
+		<li>{{forloop.counter}}-{{i|add:12}} </li>
+		{%else%}
 		<li>{{forloop.counter}}-{{i}} </li>
+		{%endif%}
 		{% endfor %}
 	</ul>
 
