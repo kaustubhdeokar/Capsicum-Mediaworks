@@ -8,5 +8,3 @@ class Product(models.Model):
 	summary     = models.TextField(blank=False, null=False)
 	featured = models.BooleanField(default=False)
 		
-
-
