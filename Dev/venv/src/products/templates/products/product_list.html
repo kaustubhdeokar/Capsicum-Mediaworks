@@ -6,7 +6,7 @@
 
 {% for i in object_list %}
 	<p>
-		{{ i.title }} - <a href='/products/{{ i.id }}/'>{{ i.title }} </a>
+		{{ i.title }} - <a href='{{ i.get_absolute_url }}'>{{ i.title }} </a>
 	</p>
 {% endfor %}
 
