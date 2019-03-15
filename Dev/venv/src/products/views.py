@@ -1,16 +1,38 @@
 from django.shortcuts import render
-from .forms import ProductForm
+from .forms import ProductForm , RawProductForm
 from .models import Product
 
 def product_create_view(request):
-	form = ProductForm(request.POST or None)
-	if form.is_valid():
-		form.save()
-		form = ProductForm()
+	my_form=RawProductForm()
+	if(request.method == "POST"):
+		form=RawProductForm(request.POST) #here request.POST is used for validation
+		if form.is_valid():
+			Product.objects.create(**form.cleaned_data)
+		else:
+			print(form.errors)
+
 	context = {
-		'form':form
+	"form":form
 	}
 	return render(request,"products/product_create.html",context)
+
+
+# def product_create_view(request):
+# 	context={}
+# 	print(request.POST.get('title'))
+
+# 	print(request.POST)
+# 	return render(request,"products/product_create.html",context)
+
+# def product_create_view(request):
+# 	form = ProductForm(request.POST or None)
+# 	if form.is_valid():
+# 		form.save()
+# 		form = ProductForm()
+# 	context = {
+# 		'form':form
+# 	}
+# 	return render(request,"products/product_create.html",context)
 
 
 
@@ -22,3 +44,11 @@ def product_detail_view(request):
 	}
 	return render(request,"products/product_detail.html",context)
 #here the template is inside the app products.
+
+
+def dynamic_lookup_view(request,my_id):
+	obj=Product.objects.get(id=my_id)
+	context={
+	"object":obj
+	}
+	return render(request,"products/product_detail.html",context)
