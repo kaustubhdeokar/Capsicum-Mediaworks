@@ -1,4 +1,4 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, redirect
 from .forms import ProductForm , RawProductForm
 from .models import Product
 
@@ -25,6 +25,13 @@ def product_delete_view(request,id):
 	"object":obj
 	}
 	return render(request,"products/product_delete.html",context)
+
+def product_list_view(request):
+	queryset=Product.objects.all() #list of objects
+	context= {
+	"object_list": queryset
+	}
+	return render(request,"products/product_list.html",context)
 
 # def product_create_view(request):
 # 	context={}
