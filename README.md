@@ -1,2 +1,2 @@
 # Capsicum-Mediaworks
-Deployment-1
+Assignment for course in Semester 3: Web Development. 
